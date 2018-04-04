@@ -1,1 +1,3 @@
 # ERC20-Tutorial
+The 3 files we have included aim to demonstrate the functionality of Solidity contracts.
+A Solidity contract is comprised of functions and data (state) and lives at a specific address on the Ethereum blockchain. The most basic contract (BasicContract.sol) contains 3 main elements - a state variable called storedData and 2 functions, set() and get(). The functions preform only the most basic functionalities: get() returns storedData, and set() sets/changes the value of storedData. Technically, one can simply use set() to assign whatever value they wish to storedData. However, since all transactions/previous values are stored in the Ethereum blockchain, major discrepancies such as this are easy to locate.
